@@ -11,33 +11,61 @@
     <a class="skip-link" href="#main">Skip to main content</a>
 
     <header class="site-header">
-      <div class="topbar">
-        <div class="topbar-info">
-          <span>University of Arizona Cancer Center</span>
-          <span>Monday–Friday, 8 a.m.–5 p.m. MST</span>
+      <!-- 1. Arizona Crimson Topbar -->
+      <div class="arizona-topbar">
+        <div class="topbar-container">
+          <a class="arizona-title" href="https://www.arizona.edu" target="_blank" rel="noreferrer">
+            THE UNIVERSITY OF ARIZONA
+          </a>
+          <div class="topbar-utilities">
+            <div class="search-box">
+              <input type="text" placeholder="Search this site" aria-label="Search this site">
+              <button class="search-btn" aria-label="Search">🔍</button>
+            </div>
+            <div class="employees-dropdown">
+              <button class="employees-btn">Employees <span class="arrow-down">▾</span></button>
+            </div>
+          </div>
         </div>
-        <a href="tel:15206942873">📞 520-694-CURE (2873)</a>
       </div>
-      <nav class="nav" aria-label="Primary navigation">
-        <a class="brand" href="#main">
-          <div class="brand-logo-container">
-            <img class="uacc-logo" src="https://cancercenter.arizona.edu/sites/default/files/Cancer%20Center_2x_0_0.png" alt="University of Arizona Cancer Center Logo">
-            <div class="brand-divider"></div>
-            <img class="nci-logo" src="https://cancercenter.arizona.edu/sites/default/files/styles/az_very_small/public/2026-04/NCI-Logo.jpg.webp?itok=dgrMXikK" alt="NCI Designated Cancer Center Logo">
+
+      <!-- 2. Main Branding Logo Area -->
+      <div class="branding-header">
+        <div class="branding-container">
+          <a class="logo-uacc" href="/">
+            <img src="https://cancercenter.arizona.edu/sites/default/files/Cancer%20Center_2x_0_0.png" alt="University of Arizona Cancer Center Logo">
+          </a>
+          <div class="logo-nci">
+            <img src="https://cancercenter.arizona.edu/sites/default/files/styles/az_very_small/public/2026-04/NCI-Logo.jpg.webp?itok=dgrMXikK" alt="NCI Designated Comprehensive Cancer Center Logo">
           </div>
-          <div class="brand-text">
-            <strong>Holistic Circles of Care</strong>
-            <small>Tom & Catherine Culley Programs</small>
-          </div>
-        </a>
-        <div class="nav-links">
-          <a href="#services">Services</a>
-          <a href="#weekly">Weekly Classes</a>
-          <a href="#caregivers">Caregivers</a>
-          <a href="#contact">Campus Locations</a>
-          <a class="cta-btn" href="#register">Register / Contact</a>
+        </div>
+      </div>
+
+      <!-- 3. Primary Navigation Menu -->
+      <nav class="nav-bar-container" aria-label="Primary navigation">
+        <div class="nav-bar">
+          <ul class="main-nav-links">
+            <li><a href="#services">About <span class="nav-arrow nav-arrow-blue"></span></a></li>
+            <li class="active"><a href="#weekly">Patients <span class="nav-arrow nav-arrow-red"></span></a></li>
+            <li><a href="#caregivers">Community Outreach <span class="nav-arrow nav-arrow-blue"></span></a></li>
+            <li><a href="#services">Research <span class="nav-arrow nav-arrow-blue"></span></a></li>
+            <li><a href="#services">Training & Education <span class="nav-arrow nav-arrow-blue"></span></a></li>
+            <li><a href="#services">Newsroom <span class="nav-arrow nav-arrow-blue"></span></a></li>
+            <li><a href="#weekly">Events</a></li>
+          </ul>
         </div>
       </nav>
+
+      <!-- 4. Breadcrumbs -->
+      <div class="breadcrumbs-container">
+        <div class="breadcrumbs">
+          <a href="#" class="breadcrumb-home">🏠 Home</a>
+          <span class="breadcrumb-separator">›</span>
+          <a href="#">Patients</a>
+          <span class="breadcrumb-separator">›</span>
+          <span class="breadcrumb-current">Holistic Circles of Care</span>
+        </div>
+      </div>
     </header>
 
     <main id="main">
